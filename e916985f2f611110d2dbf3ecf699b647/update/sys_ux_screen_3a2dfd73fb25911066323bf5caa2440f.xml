@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="cicdtest workspace Config">b62dfd7313259110a207fd0f7a90ec12</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Attachment">3478e8db0f0210107d20409dc4767e89</macroponent>
+        <macroponent_config>{&#13;
+    "table": "@data.gform.nowRecordFormBlob.table",&#13;
+    "sysId": "@data.gform.nowRecordFormBlob.sysId"&#13;
+}</macroponent_config>
+        <name>Attachment</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Attachment">747828db0f0210107d20409dc4767eb5</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 06:12:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a2dfd73fb25911066323bf5caa2440f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="cicdtest" source="x_626805_cicdtest">e916985f2f611110d2dbf3ecf699b647</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cicdtest">e916985f2f611110d2dbf3ecf699b647</sys_scope>
+        <sys_update_name>sys_ux_screen_3a2dfd73fb25911066323bf5caa2440f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 06:12:31</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=3a2dfd73fb25911066323bf5caa2440f"/>
+</record_update>
