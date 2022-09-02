@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_626805_cicdtest.admin" name="x_626805_cicdtest.admin">fa8df5b32f259110d2dbf3ecf699b6b0</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 06:14:08</sys_created_on>
+        <sys_id>cb8df5b32f259110d2dbf3ecf699b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fa8df5b32f259110d2dbf3ecf699b6b0</sys_name>
+        <sys_package display_value="cicdtest" source="x_626805_cicdtest">e916985f2f611110d2dbf3ecf699b647</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cicdtest">e916985f2f611110d2dbf3ecf699b647</sys_scope>
+        <sys_update_name>sys_embedded_help_role_cb8df5b32f259110d2dbf3ecf699b6b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 06:14:08</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

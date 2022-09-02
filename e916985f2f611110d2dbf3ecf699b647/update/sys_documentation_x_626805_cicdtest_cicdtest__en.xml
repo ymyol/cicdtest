@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="test2" label="test2" language="en" table="x_626805_cicdtest_cicdtest">
+    <sys_documentation element="" label="cicdtest" language="en" table="x_626805_cicdtest_cicdtest">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>test2</element>
+            <element/>
             <help/>
             <hint/>
-            <label>test2</label>
+            <label>cicdtest</label>
             <language>en</language>
             <name>x_626805_cicdtest_cicdtest</name>
-            <plural/>
+            <plural>cicdtests</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-02 06:47:36</sys_created_on>
-            <sys_id>1d354afb2f259110d2dbf3ecf699b65e</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_name>test2</sys_name>
+            <sys_created_on>2022-09-02 06:13:56</sys_created_on>
+            <sys_id>448d75b32f259110d2dbf3ecf699b65b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cicdtest</sys_name>
             <sys_package display_value="cicdtest" source="x_626805_cicdtest">e916985f2f611110d2dbf3ecf699b647</sys_package>
             <sys_policy/>
             <sys_scope display_value="cicdtest">e916985f2f611110d2dbf3ecf699b647</sys_scope>
-            <sys_update_name>sys_documentation_x_626805_cicdtest_cicdtest_test2_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_626805_cicdtest_cicdtest__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-02 06:47:37</sys_updated_on>
+            <sys_updated_on>2022-09-02 06:13:56</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
