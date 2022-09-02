@@ -2,5 +2,6 @@
     <element label="cicdtest" max_length="40" name="x_626805_cicdtest_cicdtest" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="test" max_length="40" name="test" type="string"/>
+        <element label="test2" max_length="40" name="test2" type="string"/>
     </element>
 </database>
