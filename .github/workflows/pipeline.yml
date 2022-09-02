@@ -23,7 +23,7 @@ jobs:
         env:
           nowUsername: ${{ secrets.SN_USERNAME }}
           nowPassword: ${{ secrets.SN_PASSWORD }}
-          nowSourceInstance: ${{ secrets.SN_DEV_INSTANCE }}
+          nowSourceInstance: ${{ secrets.SN_TEST_INSTANCE }}
           appSysID: ${{ secrets.SN_APP_SYSID }}
           
     # This is required to pass the version number output from Publish App 
@@ -33,29 +33,29 @@ jobs:
     outputs:
       publishversion: 1.1.6
 
-  test:
-    # Purpose of this job is to Install App from the app repo for the version 
-    # published in the build job to a Test instance, then run an ATF Test Suite 
-    # associated with the app. If Test Suite fails, the app should be Rolled Back 
-    # to clean up the persistent Test environment. 
-    needs: build
-    name: Run ATF in Test
-    runs-on: ubuntu-latest
-    # Below line can be used to set conditionals for modifying your pipeline as needed.
-    # if: ${{ github.event_name == 'pull_request'}}
+#   test:
+#     # Purpose of this job is to Install App from the app repo for the version 
+#     # published in the build job to a Test instance, then run an ATF Test Suite 
+#     # associated with the app. If Test Suite fails, the app should be Rolled Back 
+#     # to clean up the persistent Test environment. 
+#     needs: build
+#     name: Run ATF in Test
+#     runs-on: ubuntu-latest
+#     # Below line can be used to set conditionals for modifying your pipeline as needed.
+#     # if: ${{ github.event_name == 'pull_request'}}
     
-    steps:
-      - name: ServiceNow CI/CD Apply Changes to TEST
-        uses: ServiceNow/sncicd-apply-changes@2.0.0
-        env:
-          nowUsername: ${{ secrets.SN_USERNAME }}
-          nowPassword: ${{ secrets.SN_PASSWORD }}
-          nowSourceInstance: ${{ secrets.SN_TEST_INSTANCE }}
-          appSysID: ${{ secrets.SN_APP_SYSID }}
+#     steps:
+#       - name: ServiceNow CI/CD Apply Changes to TEST
+#         uses: ServiceNow/sncicd-apply-changes@2.0.0
+#         env:
+#           nowUsername: ${{ secrets.SN_USERNAME }}
+#           nowPassword: ${{ secrets.SN_PASSWORD }}
+#           nowSourceInstance: ${{ secrets.SN_TEST_INSTANCE }}
+#           appSysID: ${{ secrets.SN_APP_SYSID }}
 
-    # This is required to pass the version number output from Publish App 
-    # to the input for Install App in the next job! This is because the jobs 
-    # run on different Linux instances, so without this Install App won't know
-    # what to install.
-    outputs:
-      publishversion: 1.1.6
+#     # This is required to pass the version number output from Publish App 
+#     # to the input for Install App in the next job! This is because the jobs 
+#     # run on different Linux instances, so without this Install App won't know
+#     # what to install.
+#     outputs:
+#       publishversion: 1.1.6
