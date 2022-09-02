@@ -4,6 +4,7 @@
         <element label="test" max_length="40" name="test" type="string"/>
         <element label="test3" max_length="40" name="test3" type="string"/>
         <element label="test5" max_length="40" name="test5" type="string"/>
+        <element label="test8" max_length="40" name="test8" type="string"/>
         <element label="test9" max_length="40" name="test9" type="string"/>
     </element>
 </database>
